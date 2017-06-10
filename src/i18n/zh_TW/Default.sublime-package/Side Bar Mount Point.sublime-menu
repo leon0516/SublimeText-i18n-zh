@@ -1,4 +1,0 @@
-[
-	{ "caption": "-", "id": "folder_commands" },
-	{ "caption": "從專案中刪除資料夾", "command": "remove_folder", "args": { "dirs": []} }
-]
