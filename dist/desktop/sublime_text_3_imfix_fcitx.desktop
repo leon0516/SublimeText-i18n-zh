@@ -13,7 +13,7 @@ Comment[zh_TW]=高端精緻的文字(程式碼、HTML、散文)編輯器
 Keywords=Text;Editor;
 Keywords[zh_CN]=文本;编辑器;Text;Editor;
 Keywords[zh_TW]=文字;編輯器;Text;Editor;
-Exec=sublime_text_3_imfix %F
+Exec=sublime_text_3_imfix_fcitx %F
 Terminal=false
 MimeType=text/english;text/plain;text/x-makefile;text/x-c++hdr;text/x-c++src;text/x-chdr;text/x-csrc;text/x-java;text/x-moc;text/x-pascal;text/x-tcl;text/x-tex;application/x-shellscript;text/x-c;text/x-c++;
 Icon=sublime-text
@@ -24,8 +24,8 @@ Actions=Window;Document;
 
 [Desktop Action Window]
 Name=New Window
-Exec=sublime_text_3_imfix -n
+Exec=sublime_text_3_imfix_fcitx -n
 
 [Desktop Action Document]
 Name=New File
-Exec=sublime_text_3_imfix --command new_file
+Exec=sublime_text_3_imfix_fcitx --command new_file
